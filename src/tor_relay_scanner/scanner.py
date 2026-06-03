@@ -136,6 +136,7 @@ class TorRelayGrabber:
         URLS = [BASEURL,
                 "https://icors.vercel.app/?" + urllib.parse.quote(BASEURL),
                 "https://github.com/ValdikSS/tor-onionoo-mirror/raw/master/details-running-relays-fingerprint-address-only.json",
+                "https://translate.yandex.ru/translate?url=https://bitbucket.org/ValdikSS/tor-onionoo-mirror/raw/master/details-running-relays-fingerprint-address-only.json&lang=de-de",
                 "https://bitbucket.org/ValdikSS/tor-onionoo-mirror/raw/master/details-running-relays-fingerprint-address-only.json"]
         if preferred_urls_list:
             for pref_url in preferred_urls_list:
